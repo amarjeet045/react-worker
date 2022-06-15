@@ -8,7 +8,7 @@ import AuthProvider from "./contexts/AuthContext";
 function App() {
   return (
     <AuthProvider>
-    <BrowserRouter basename="/React">
+    <BrowserRouter basename="/">
      
         <Routes>
         <Route path="/" element={<SuccessMessage />} />r
