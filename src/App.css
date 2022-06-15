@@ -1,3 +1,8 @@
+:root {
+  --mdc-theme-primary: #1904ff;
+  --mdc-theme-secondary: #1e1e44;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,221 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mdl-shadow--2dp {
+  box-shadow: none !important;
+  margin-top: -20px !important;
+}
+
+.logo {
+  display: block;
+  margin: 100px auto;
+}
+.gstInputCard {
+  box-shadow: none !important;
+  max-width: 600px;
+  display: block;
+  margin: 10% auto;
+}
+.gstContinuebutton {
+  float: right;
+  margin-top: 30px !important;
+  width: 143px;
+height: 56px;
+
+/* BG Button */
+
+background: #F5F4FF;
+/* Prim */
+
+border: 2px solid var(--mdc-theme-primary);
+border-radius: 4px;
+}
+
+.gstInput {
+  width: 100%;
+}
+.cardAddr {
+  display: inline-flex;
+  align-items: center;
+  gap:15px
+}
+.successMessage {
+  display: inline-flex;
+  gap: 20px;
+  align-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.gstLookupError{
+  color: red;
+  text-align: center;
+}
+
+.successMessages {
+  background: url(./images/successMessage.svg);
+  height: 101.7vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loginScreenVerify{
+  background: url(./images/verify.svg);
+  height: 101.7vh;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.gstInputImage {
+  background: url(./images/gst.svg);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.successLogo {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+}
+.successSection {
+  margin-top: 10%;
+}
+
+.successTick {
+  width: 150px;
+  display: block;
+  margin: 30px auto;
+}
+
+.successDesc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: 0.10287px;
+  color: #1e1e44;
+}
+#successCard {
+  background: #f5f4ff;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 10px auto;
+}
+.welcomeCompany {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  margin-top: -20px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Sec */
+
+  color: #1e1e44;
+}
+.gstNumber {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--mdc-theme-secondary);
+}
+
+.editIcon {
+  color: var(--mdc-theme-primary);
+}
+.selectCompany {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--mdc-theme-secondary);
+  text-align: center;
+}
+
+.location {
+  color: var(--mdc-theme-primary);
+}
+
+#locationCard {
+  max-width: 500px;
+  height: 91px;
+  background: #ffffff;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.09);
+  border-radius: 6px;
+}
+.locationCardContent {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+
+  /* Sec */
+
+  color: var(--mdc-theme-secondary);
+}
+
+.cardAddr {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 15px;
+}
+.branchSelectorImage {
+  background-image: url("./images/location.svg");
+  height: 101.7vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loactionCards {
+  margin-left: 5%;
+}
+.gstInputHead {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Sec */
+
+  color: var(--mdc-theme-secondary);
+}
+.gstInputContent {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* Sec */
+
+  color: #1e1e44;
+}
+.logoLogin{
+  
+  width: 150px;
+  display: block;
+  margin: 15% auto !important;
+
+}
+.mdl-card{
+  margin: 5% auto !important;
 }
